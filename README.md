@@ -8,7 +8,7 @@ I use this joystick to control the drone : http://www.thrustmaster.com/fr_FR/pro
 
 ![Alt text](http://img11.hostingpics.net/pics/792775Joystick.png "My Joystick")
 
-I take a little video about my project : <br>
+I took a little video about my project : <br>
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/fM5P8-8vQnw/0.jpg)](http://www.youtube.com/watch?v=fM5P8-8vQnw)<br>
 (Sorry for the bad quality :/)
 
