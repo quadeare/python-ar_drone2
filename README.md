@@ -5,8 +5,18 @@ This python script was written to control an AR Drone 2.0 with a joystick.
 It support video (with ffplay) but much work remains...
 
 I use this joystick to control the drone : http://www.thrustmaster.com/fr_FR/produits/t16000m<br>
-I take a little video about my project : http://www.youtube.com/watch?v=fM5P8-8vQnw<br>
+
+![Alt text](http://img11.hostingpics.net/pics/792775Joystick.png "My Joystick")
+
+I take a little video about my project : <br>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/fM5P8-8vQnw/0.jpg)](http://www.youtube.com/watch?v=fM5P8-8vQnw)<br>
 (Sorry for the bad quality :/)
+
+Raspberry compatibilitie:
+-----
+
+This python script wonderfully work on a raspberry PI !
+
 
 Demo:
 -----
@@ -27,3 +37,13 @@ Button 4		: Animation Turnarround ! <br>
 Button 9		: Animation Yaw Shake ! <br>
 Button 8		: Animation Yaw Dance ! <br>
 Button 5		: Animation ThetaMixed ! <br>
+
+
+Requirements:
+-------------
+
+This software was tested with the following setup:
+
+  * Python 2.6.6
+  * Python pygame
+  * Unmodified AR.Drone firmware 2.0
