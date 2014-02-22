@@ -47,3 +47,10 @@ This software was tested with the following setup:
   * Python 2.6.6
   * Python pygame
   * Unmodified AR.Drone firmware 2.0
+
+
+Installation:
+-------------
+
+You can now execute install.sh script to launch automatic installation of required packages on Ubuntu/Debian/Mint.
+

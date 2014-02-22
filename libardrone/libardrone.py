@@ -67,7 +67,6 @@ class ARDrone(object):
         self.com_watchdog_timer = threading.Timer(self.timer_t, self.commwdg)
         self.lock = threading.Lock()
         self.speed = 0.2
-        self.hd = hd
 
         self.image_shape = (720, 1080, 1)
 
@@ -82,9 +81,9 @@ class ARDrone(object):
         time.sleep(0.2)
         self.set_video_bitrate_control_mode(self.config_ids_string, "1")
         time.sleep(0.2)
-        self.set_video_bitrate(self.config_ids_string, "10000")
+        self.set_video_bitrate(self.config_ids_string, "500")
         time.sleep(0.2)
-        self.set_max_bitrate(self.config_ids_string, "10000")
+        self.set_max_bitrate(self.config_ids_string, "500")
         time.sleep(0.2)
         self.set_fps(self.config_ids_string, "30")
         time.sleep(0.2)
